@@ -1,0 +1,18 @@
+{
+	"explorer.compactFolders": false,
+	"editor.formatOnSave": true,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.codeActionsOnSave": {
+		"source.organizeImports": true,
+		"source.fixAll": true
+	},
+	"prettier.arrowParens": "always",
+	"prettier.singleQuote": true,
+	"prettier.tabWidth": 2,
+	"prettier.useTabs": true,
+	"prettier.endOfLine": "lf",
+	"prettier.trailingComma": "all",
+	"prettier.bracketSpacing": true,
+	"prettier.withNodeModules": false,
+	"prettier.printWidth": 120
+}

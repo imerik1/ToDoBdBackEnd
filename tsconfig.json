@@ -1,0 +1,46 @@
+{
+	"compilerOptions": {
+		"target": "ES2021",
+		"module": "CommonJS",
+		"baseUrl": "src",
+		"strict": true,
+		"alwaysStrict": true,
+		"declarationMap": true,
+		"checkJs": true,
+		"importHelpers": false,
+		"inlineSourceMap": true,
+		"declaration": true,
+		"isolatedModules": true,
+		"noImplicitAny": true,
+		"outDir": "dist/",
+		"sourceRoot": "src/",
+		"allowJs": true,
+		"removeComments": true,
+		"noImplicitReturns": true,
+		"esModuleInterop": true
+	},
+	"ts-node": {
+		"compilerOptions": {
+			"target": "ES2021",
+			"module": "CommonJS",
+			"baseUrl": "src",
+			"strict": true,
+			"alwaysStrict": true,
+			"declarationMap": true,
+			"checkJs": true,
+			"importHelpers": false,
+			"inlineSourceMap": true,
+			"declaration": true,
+			"isolatedModules": true,
+			"noImplicitAny": true,
+			"outDir": "dist/",
+			"sourceRoot": "src/",
+			"allowJs": true,
+			"removeComments": true,
+			"noImplicitReturns": true,
+			"esModuleInterop": true
+		}
+	},
+	"exclude": ["node_modules/"],
+	"include": ["src/"]
+}
