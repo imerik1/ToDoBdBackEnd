@@ -24,7 +24,7 @@ model Task {
 model User {
   id        Int      @id @unique @default(autoincrement())
   nickname  String   @unique
-  email     String
+  email     String   @unique
   password  String
   thumbnail String
   tasks     Task[]
